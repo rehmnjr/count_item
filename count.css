@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+.con1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.con2{
+    margin-top: 15px;
+    text-align: center;
+}
+.reset_btn{
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;  
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+#rmvOne{
+    width: 140px;
+    height: 40px;
+    background-color: orange;
+    color: white;  
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+}
+
+.btn{
+  margin-right: 20px;
+  margin-top: 30px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+}
+.bag{
+    width: 160px;
+    background-color: rgb(133, 185, 59);
+}
+.wish{
+    width: 200px;
+    background-color: rgb(255, 0, 170);
+}
+.sale{
+    width: 220px;
+    background-color:  rgb(133, 185, 59);
+}
+
+.bag:hover{
+    background-color: rgb(115, 170, 38);
+}
+.bag:active{
+    background-color:  rgb(97, 143, 34);
+}
+
+.sale:hover{
+    background-color: rgb(115, 170, 38);
+}
+.sale:active{
+    background-color:  rgb(97, 143, 34);
+}
+
+.wish:hover{
+    background-color: rgb(252, 74, 192);
+}
+.wish:active{
+    background-color: rgb(228, 13, 156);
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(23, 0, 77);
+}
+#countitem{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+}
+.color{
+    color: yellow;
+}
