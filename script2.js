@@ -7,6 +7,10 @@ function myfunction(){
 let updateitemtxt = document.querySelector('#countitem');
 updateitemtxt.innerHTML = `Total ${count} items has been added`;
 
+
+let add = `<div class="add"> ${count} Item added </div>`
+document.querySelector('.cont3').innerHTML +=add; 
+
 }
 
 
@@ -17,6 +21,9 @@ function resetfun(){
     count=0;
     let updateitemtxt = document.querySelector('#countitem');
     updateitemtxt.innerHTML = `Total ${count} items has been added`;
+
+document.querySelector('.cont3').innerHTML ="";
+   
 }
 else{
     alert('0 Items Found');
@@ -31,6 +38,10 @@ function rmvfun(){
   count-=1;
   let updateitemtxt = document.querySelector('#countitem');
   updateitemtxt.innerHTML = `Total ${count} items has been added`;
+
+  let container =document.querySelector('.cont3');
+  let lastdiv = container.lastElementChild;
+  container.removeChild(lastdiv);
 }
 else{
     alert('No items are left');

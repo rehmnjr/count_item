@@ -108,3 +108,18 @@ body{
 .color{
     color: yellow;
 }
+
+.cont3{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+.add{
+    background-color: white;
+    padding: 10px;
+    color: rgb(0, 106, 255);
+    font-size: 2rem; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 1px;
+    border-radius: 5px;
+}
